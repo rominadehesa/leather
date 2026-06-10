@@ -1,0 +1,551 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Marcellus&family=Marcellus+SC&display=swap');
+
+:root {
+  /* Primarios */
+  --color-dark: #1F0808;
+  /* marrón casi negro (navbar, fondo oscuro) */
+  --color-cream-1: #E1DBCB;
+  /* crema medio (fondo suave) */
+  --color-cream-2: #F5F1EA;
+  /* crema claro (cards, fondos suaves) */
+
+  /* Acento */
+  --color-tan: #8C6B52;
+  /* marrón cálido / toggle activo */
+  --color-tan-hover: #83634a;
+
+  /* Neutros UI */
+  --color-charcoal: #4D4D4D;
+  /* texto secundario, íconos */
+  --color-mist: #EEEEEB;
+  /* bordes, separadores, estado hover suave */
+
+  /* Semánticos */
+  --color-bg: var(--color-white);
+  --color-surface: var(--color-cream-2);
+  --color-nav-bg: var(--color-dark);
+  --color-nav-text: var(--color-cream-1);
+  --color-text: var(--color-dark);
+  --color-text-muted: var(--color-charcoal);
+  --color-accent: var(--color-tan);
+  --color-border: var(--color-mist);
+}
+
+
+html,
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Marcellus", serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: var(--color-dark);
+  color: var(--color-cream-1);
+  font-weight: 400;
+  padding: 1vh 12vw;
+  font-family: "Manrope", sans-serif;
+}
+
+nav>div>.logo {
+  font-family: "Marcellus SC", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 4vh;
+}
+
+header main {
+  background-image: url('imgs/header-section.png');
+  background-size: cover;
+  color: var(--color-mist);
+}
+
+header main h1,
+section h1 {
+  font-size: 64px;
+  font-family: "Marcellus", serif;
+  font-weight: 400;
+  line-height: 100%;
+  margin-bottom: 3vh;
+}
+
+#sx-about h1 {
+  color: var(--color-dark);
+}
+
+section h2,
+section h3 {
+  font-weight: 400;
+  font-family: "Marcellus", serif;
+}
+
+.section-title,
+.subtitle,
+.paragraph {
+  font-family: "Manrope", sans-serif;
+}
+
+section h2 {
+  font-size: 52px;
+  line-height: 105%;
+  letter-spacing: -5%;
+  color: var(--color-dark);
+  margin-bottom: 38px;
+}
+
+section h3 {
+  font-size: 40px;
+  line-height: 110%;
+  letter-spacing: -2%;
+  margin-top: 32px;
+}
+
+.subtitle {
+  font-size: 30px;
+  line-height: 130%;
+  margin-bottom: 4vh;
+}
+
+.paragraph {
+  font-size: 16px;
+  line-height: 140%;
+  color: var(--color-charcoal);
+  margin-bottom: 6vh;
+}
+
+.section-title {
+  font-size: 32px;
+  line-height: 105%;
+  font-weight: 500;
+  color: var(--color-dark);
+  margin-bottom: 2vh;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header main {
+  text-align: center;
+}
+
+header main div {
+  gap: 20px;
+}
+
+nav ul {
+  list-style: none;
+  gap: 60px;
+}
+
+.padding-general {
+  padding: 15vh 12vw;
+}
+
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-between {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.lang-toggle {
+  display: flex;
+  align-items: center;
+  background-color: #8C6B52;
+  border-radius: 64px;
+  padding: 4px 6px;
+  gap: 4px;
+}
+
+.lang-toggle__option {
+  padding: 3px 10px;
+  border-radius: 64px;
+  cursor: pointer;
+  color: var(--color-cream-1);
+  transition: background-color 200ms ease;
+}
+
+.lang-toggle__option--active {
+  background-color: var(--color-cream-2);
+  color: var(--color-dark);
+}
+
+#btn-primary,
+#btn-secondary {
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 110%;
+  letter-spacing: 0.05em;
+  border: none;
+  border-radius: 500px;
+  padding: 24px 64px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+
+
+#btn-primary {
+  color: #FFFFFF;
+  background-color: var(--color-tan);
+}
+
+#btn-primary:hover {
+  background-color: var(--color-tan-hover);
+}
+
+#btn-secondary {
+  background-color: var(--color-mist);
+  color: var(--color-dark);
+}
+
+#sx-values {
+  background-color: var(--color-cream-2);
+  display: flex;
+  justify-content: space-around;
+  align-items: end;
+  gap: 10px;
+  color: var(--color-dark);
+  font-family: "Manrope", sans-serif;
+  padding: 10vh 12vw;
+}
+
+#sx-values article {
+  text-align: center;
+}
+
+#sx-values span {
+  font-size: 56px;
+  font-weight: 500;
+  letter-spacing: -5%;
+  line-height: 105%;
+}
+
+#sx-values p {
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: -5%;
+  line-height: 135%;
+  text-transform: uppercase;
+}
+
+#sx-about {
+  background-color: var(--color-cream-1);
+}
+
+#sx-about img,
+#sx-about div {
+  width: 47%;
+}
+
+#sx-about main {
+  gap: 40px;
+}
+
+#sx-founded,
+#sx-qualification {
+  background-color: var(--color-dark);
+  color: var(--color-mist);
+  text-align: center;
+}
+
+#sx-founded>div,
+#sx-qualification>div,
+#sx-export>div {
+  width: 80%;
+}
+
+#sx-qualification {
+  background-color: var(--color-cream-1);
+  color: var(--color-dark);
+}
+
+#products {
+  background-color: var(--color-cream-2);
+}
+
+#products h2 {
+  text-align: center;
+}
+
+#products main {
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+#products main article {
+  background-color: var(--color-cream-1);
+  border-radius: 26px;
+  width: 48%;
+}
+
+#products main article header img {
+  border-top-right-radius: 26px;
+  border-top-left-radius: 26px;
+  width: 100%;
+}
+
+#products main article main {
+  padding: 32px 24px;
+  min-height: 30vh;
+}
+
+#btn-product {
+  background-color: var(--color-tan);
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  font-size: 14px;
+  line-height: 105%;
+  letter-spacing: 5%;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: var(--color-cream-2);
+  border-radius: 16px;
+  padding: 16px;
+}
+
+#btn-product:hover {
+  background-color: var(--color-tan-hover);
+  cursor: pointer;
+}
+
+#process {
+  background-color: var(--color-dark);
+}
+
+#process h2 {
+  text-align: center;
+  color: var(--color-mist);
+}
+
+#process>main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#process main #step {
+  width: 45vw;
+  display: flex;
+  justify-content: start;
+  gap: 48px;
+  color: var(--color-mist);
+  padding: 50px 0;
+}
+
+#process main #step header p {
+  font-family: "Manrope", sans-serif;
+  font-size: 96px;
+  line-height: 109%;
+  letter-spacing: -5%;
+}
+
+#process main #step main p {
+  text-align: start !important;
+  color: var(--color-mist);
+}
+
+#process main #step header span {
+  color: var(--color-tan);
+}
+
+#sx-export {
+  background-color: var(--color-cream-2);
+  color: var(--color-dark);
+  text-align: center;
+}
+
+#sx-export .tags {
+  margin-top: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+#sx-export .tags span {
+  text-transform: uppercase;
+  color: var(--color-tan);
+  font-family: "Manrope", sans-serif;
+}
+
+#contact {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer {
+  background-color: var(--color-dark);
+  color: var(--color-mist);
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+
+footer h6 {
+  font-family: "Marcellus SC", serif;
+  font-weight: 400;
+  font-size: 28px;
+}
+
+footer p {
+  font-family: "Manrope", serif;
+  font-weight: 400;
+  font-size: 12px;
+}
+
+footer ul {
+  font-family: "Manrope", serif;
+  display: flex;
+  align-items: end;
+  list-style: none;
+  gap: 60px;
+}
+
+footer ul {
+  margin: 0;
+  padding: 0;
+}
+
+
+@media (max-width: 768px) {
+
+  .flex-between,
+  .flex-center {
+    display: block;
+  }
+
+  nav>ul {
+    display: none !important;
+  }
+
+  #sx-values,
+  #sx-about,
+  #products main,
+  #contact,
+  footer,
+  footer ul {
+    display: block;
+  }
+
+  #sx-founded>div,
+  #sx-qualification>div,
+  #sx-export>div,
+  #process main #step,
+  #products main article {
+    width: 100%;
+  }
+
+  nav>div>.logo {
+    font-size: 3vh;
+  }
+
+  .padding-general {
+        padding: 8vh 6vw;
+    }
+
+  header main h1,
+  section h1 {
+    font-size: 48px;
+  }
+
+  .subtitle {
+    font-size: 22px;
+  }
+
+  #btn-primary, #btn-secondary {
+     width: 100%;
+     text-align: center;
+     display: block;
+     margin-bottom: 2vh;
+  }
+
+  #sx-values {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    gap: 40px;
+  }
+
+  #sx-about img {
+    margin-bottom: 4vh;
+  }
+
+  #sx-about img, #sx-about div {
+    width: 100%;
+  }
+
+  section h3 {
+    font-size: 28px;
+    margin-top: 22px;
+  }
+
+  section h2 {
+    font-size: 38px;
+    margin-bottom: 28px;
+  }
+
+  .subtitle {
+    font-size: 20px;
+  }
+
+  .paragraph {
+    font-size: 14px;
+    margin-bottom: 2vh;
+  }
+
+  .section-title {
+    font-size: 24px;
+    margin: 1vh 0px;
+  }
+
+  #products main {
+    flex-direction: column;
+  }
+
+  #btn-product {
+    font-size: 12px;
+  }
+
+  #products main article {
+    margin-bottom: 4vh;
+  }
+
+  #products main article main {
+    padding: 32px 24px;
+    min-height: auto;
+  }
+
+  #process main #step {
+    gap: 20px;
+  }
+}
