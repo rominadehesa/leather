@@ -1,0 +1,44 @@
+{
+    "nav": {
+        "about": "About Us",
+        "products": "Products",
+        "process": "Processes",
+        "contact": "Contact"
+    },
+    "hero": {
+        "title": "Argentine Leather. Quality that travels the world.",
+        "subtitle": "Second-generation family-owned company specialized in exporting bovine, goat, and buffalo hides to international markets."
+    },
+    "buttons": {
+        "products": "View Products",
+        "contact": "Contact Us"
+    },
+    "values": {
+        "years_in_market": "Years in the market",
+        "export_start": "Beginning of exports",
+        "active_brands": "Worldwide markets",
+        "senasa_accreditation": "Official SENASA registration number"
+    },
+    "about_us": {
+        "title": "One family. Three decades in leather.",
+        "content": "Rauch Leathers S.A. is led by Rubén De Fabio and Marcos De Fabio, supervising every stage of the process from sourcing to international commercialization.",
+        "tags": {
+            "tag1": {
+                "title": "Compliance",
+                "content": "International quality standards."
+            },
+            "tag2": {
+                "title": "Quality",
+                "content": "Stability and reliability in every shipment."
+            },
+            "tag3": {
+                "title": "Traceability",
+                "content": "Complete origin tracking throughout the supply chain."
+            },
+            "tag4": {
+                "title": "Adaptability",
+                "content": "Flexibility tailored to customer requirements."
+            }
+        }
+    }
+}

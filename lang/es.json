@@ -1,0 +1,44 @@
+{
+    "nav": {
+        "about": "Nosotros",
+        "products": "Productos",
+        "process": "Procesos",
+        "contact": "Contacto"
+    },
+    "hero": {
+        "title": "Cueros Argentinos. Calidad que recorre el mundo.",
+        "subtitle": "Empresa familiar de segunda generación especializada en exportación de cueros vacunos, caprinos y bubalinos para mercados internacionales."
+    },
+    "buttons": {
+        "products": "Ver productos",
+        "contact": "Contactar"
+    },
+    "values": {
+        "years_in_market": "Años en el mercado",
+        "export_start": "Inicio de exportaciones",
+        "active_brands": "Marcados activos",
+        "senasa_accreditation": "Habilitacion oficial de SENASA"
+    },
+    "about_us": {
+        "title": "Una familia. Tres décadas de cuero.",
+        "content": "Rauch Leathers S.A. está dirigida por Rubén De Fabio y Marcos De Fabio, quienes supervisan cada etapa del proceso, desde el abastecimiento hasta la comercialización internacional.",
+        "tags": {
+            "tag1": {
+                "title": "Cumplimiento",
+                "content": "Normas internacionales de calidad"
+            },
+            "tag2": {
+                "title": "Calidad",
+                "content": "Control exhaustivo en cada etapa"
+            },
+            "tag3": {
+                "title": "Trazabilidad",
+                "content": "Seguimiento completo del origen"
+            },
+            "tag4": {
+                "title": "Adaptabilidad",
+                "content": "Flexibilidad según requerimientos"
+            }
+        }
+    }
+}

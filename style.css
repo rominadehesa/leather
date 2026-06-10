@@ -222,6 +222,10 @@ nav ul {
   color: var(--color-dark);
 }
 
+#btn-nav-mobile {
+  display: none;
+}
+
 #sx-values {
   background-color: var(--color-cream-2);
   display: flex;
@@ -263,6 +267,11 @@ nav ul {
 
 #sx-about main {
   gap: 40px;
+}
+
+#sx-about main article {
+  width: 50%;
+  height: 25vh;
 }
 
 #sx-founded,
@@ -468,6 +477,10 @@ footer ul {
     font-size: 3vh;
   }
 
+  nav {
+    padding: 1vh 5vw;
+  }
+
   .padding-general {
         padding: 8vh 6vw;
     }
@@ -547,5 +560,11 @@ footer ul {
 
   #process main #step {
     gap: 20px;
+  }
+
+  #btn-nav-mobile {
+    display: block;
+    border: none;
+    background-color: transparent;
   }
 }

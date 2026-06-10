@@ -15,50 +15,53 @@
                 <span class="logo">Leather Rauch</span>
             </div>
             <ul class="flex-between">
-                <li>Nosotros</li>
-                <li>Productos</li>
-                <li>Proceso</li>
-                <li>Contacto</li>
+                <li data-i18n="nav.about"></li>
+                <li data-i18n="nav.products"></li>
+                <li data-i18n="nav.process"></li>
+                <li data-i18n="nav.contact"></li>
             </ul>
             <div class="lang-toggle">
                 <span class="lang-toggle__option lang-toggle__option--active">SPA</span>
                 <span class="lang-toggle__option">ENG</span>
             </div>
+            <button id="btn-nav-mobile">
+                <svg width="18" height="14" viewBox="0 0 18 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0 2V0H18V2H0ZM0 14V12H18V14H0ZM0 8V6H18V8H0Z" fill="white"/>
+                </svg>
+            </button>
         </nav>
         <main class="padding-general">
-            <h1>Cueros Argentinos. <br> Calidad que recorre el mundo.</h1>
-            <p class="subtitle">Empresa familiar de segunda generación especializada en exportación de cueros vacunos,
-                caprinos y bubalinos para mercados internacionales.</p>
+            <h1 data-i18n="hero.title"></h1>
+            <p class="subtitle" data-i18n="hero.subtitle"></p>
             <div class="flex-center">
-                <button id="btn-primary">Ver Productos</button>
-                <button id="btn-secondary">Contactar</button>
+                <button id="btn-primary" data-i18n="buttons.products"></button>
+                <button id="btn-secondary" data-i18n="buttons.contact"></button>
             </div>
         </main>
     </header>
     <section id="sx-values">
         <article>
             <span>+30</span>
-            <p>Años en el mercado</p>
+            <p data-i18n="values.years_in_market"></p>
         </article>
         <article>
             <span>2019</span>
-            <p>Inicio de exportaciones</p>
+            <p data-i18n="values.export_start"></p>
         </article>
         <article>
             <span>+10</span>
-            <p>Marcados activos</p>
+            <p data-i18n="values.active_brands"></p>
         </article>
         <article>
             <span>5146</span>
-            <p>Habilitacion oficial de SENASA</p>
+            <p data-i18n="values.senasa_accreditation"></p>
         </article>
     </section>
     <section id="sx-about" class="padding-general flex-between">
         <img src="imgs/img-about.png" alt="">
         <div>
-            <h1>Una familia. <br>Tres décadas de cuero.</h1>
-            <p class="paragraph">Rauch Leathers S.A. is led by Rubén De Fabio and Marcos De Fabio, supervising every
-                stage of the process from sourcing to international commercialization.</p>
+            <h1 data-i18n="about_us.title"></h1>
+            <p class="paragraph" data-i18n="about_us.content"></p>
             <main class="flex-between">
                 <article>
                     <svg width="55" height="55" viewBox="0 0 55 55" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -76,8 +79,8 @@
                             </clipPath>
                         </defs>
                     </svg>
-                    <p class="section-title">Cumplimiento</p>
-                    <p class="paragraph">Normas internacionales de calidad</p>
+                    <p class="section-title" data-i18n="about_us.tags.tag1.title"></p>
+                    <p class="paragraph" data-i18n="about_us.tags.tag1.content"></p>
                 </article>
                 <article>
                     <svg width="54" height="54" viewBox="0 0 54 54" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -93,8 +96,8 @@
                             </clipPath>
                         </defs>
                     </svg>
-                    <p class="section-title">Calidad</p>
-                    <p class="paragraph">Control exhaustivo en cada etapa</p>
+                    <p class="section-title" data-i18n="about_us.tags.tag2.title"></p>
+                    <p class="paragraph" data-i18n="about_us.tags.tag2.content"></p>
                 </article>
             </main>
             <main class="flex-between">
@@ -119,8 +122,8 @@
                         </defs>
                     </svg>
 
-                    <p class="section-title">Trazabilidad</p>
-                    <p class="paragraph">Seguimiento completo del origen</p>
+                    <p class="section-title" data-i18n="about_us.tags.tag3.title"></p>
+                    <p class="paragraph" data-i18n="about_us.tags.tag3.content"></p>
                 </article>
                 <article>
                     <svg width="54" height="54" viewBox="0 0 54 54" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -137,8 +140,8 @@
                         </defs>
                     </svg>
 
-                    <p class="section-title">Adaptación</p>
-                    <p class="paragraph">Flexibilidad según requerimientos</p>
+                    <p class="section-title" data-i18n="about_us.tags.tag4.title"></p>
+                    <p class="paragraph" data-i18n="about_us.tags.tag4.content"></p>
                 </article>
             </main>
         </div>
@@ -358,7 +361,7 @@
             <li>Contacto</li>
         </ul>
     </footer>
-
+    <script src="js.js"></script>
 </body>
 
 </html>
