@@ -26,16 +26,18 @@
             </div>
             <button id="btn-nav-mobile">
                 <svg width="18" height="14" viewBox="0 0 18 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M0 2V0H18V2H0ZM0 14V12H18V14H0ZM0 8V6H18V8H0Z" fill="white"/>
+                    <path d="M0 2V0H18V2H0ZM0 14V12H18V14H0ZM0 8V6H18V8H0Z" fill="white" />
                 </svg>
             </button>
         </nav>
         <main class="padding-general">
-            <h1 data-i18n="hero.title"></h1>
-            <p class="subtitle" data-i18n="hero.subtitle"></p>
-            <div class="flex-center">
-                <button id="btn-primary" data-i18n="buttons.products"></button>
-                <button id="btn-secondary" data-i18n="buttons.contact"></button>
+            <div>
+                <h1 data-i18n="hero.title"></h1>
+                <p class="subtitle" data-i18n="hero.subtitle"></p>
+                <div class="flex-center">
+                    <button id="btn-primary" data-i18n="buttons.products"></button>
+                    <button id="btn-secondary" data-i18n="buttons.contact"></button>
+                </div>
             </div>
         </main>
     </header>
@@ -154,12 +156,11 @@
                     fill="#8C6B52" />
             </svg>
             <br>
-            <h3>Fundada en Rauch, Provincia de Buenos Aires, llevamos más de 30 años construyendo relaciones sólidas en
-                el mercado local.</h3>
+            <h3 data-i18n="mission"></h3>
         </div>
     </section>
     <section class="padding-general" id="products">
-        <h2>Materia prima para la industria global</h2>
+        <h2 data-i18n="products.title"></h2>
         <br>
         <main class="flex-between">
             <article>
@@ -167,10 +168,8 @@
                     <img src="imgs/cueros-vacunos.png" alt="">
                 </header>
                 <main>
-                    <p class="section-title">Cueros Vacunos</p>
-                    <p class="paragraph">Principal línea de producción. Cueros de vaquillonas, novillitos, vacas y
-                        novillos salados o secos, provenientes de frigoríficos seleccionados de Buenos Aires. Origen
-                        100% trazable, desuello mecánico y preparación según estándares de exportación.</p>
+                    <p class="section-title" data-i18n="products.product1.title"></p>
+                    <p class="paragraph" data-i18n="products.product1.description"></p>
                     <button id="btn-product">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
                             color="currentColor" fill="none" stroke="currentColor" stroke-width="1.5"
@@ -181,7 +180,7 @@
                                 d="M13 21.5V21C13 18.1716 13 16.7574 13.8787 15.8787C14.7574 15 16.1716 15 19 15H19.5M20 13.3431V10C20 6.22876 20 4.34315 18.8284 3.17157C17.6569 2 15.7712 2 12 2C8.22877 2 6.34315 2 5.17157 3.17157C4 4.34314 4 6.22876 4 10L4 14.5442C4 17.7892 4 19.4117 4.88607 20.5107C5.06508 20.7327 5.26731 20.9349 5.48933 21.1139C6.58831 22 8.21082 22 11.4558 22C12.1614 22 12.5141 22 12.8372 21.886C12.9044 21.8623 12.9702 21.835 13.0345 21.8043C13.3436 21.6564 13.593 21.407 14.0919 20.9081L18.8284 16.1716C19.4065 15.5935 19.6955 15.3045 19.8478 14.9369C20 14.5694 20 14.1606 20 13.3431Z">
                             </path>
                         </svg>
-                        Ver espeficiaciones técnicas
+                        <span data-i18n="products.product1.btn"></span>
                     </button>
                 </main>
             </article>
@@ -190,10 +189,8 @@
                     <img src="imgs/cueros-vacunos.png" alt="">
                 </header>
                 <main>
-                    <p class="section-title">Cueros Vacunos</p>
-                    <p class="paragraph">Principal línea de producción. Cueros de vaquillonas, novillitos, vacas y
-                        novillos salados o secos, provenientes de frigoríficos seleccionados de Buenos Aires. Origen
-                        100% trazable, desuello mecánico y preparación según estándares de exportación.</p>
+                    <p class="section-title" data-i18n="products.product2.title"></p>
+                    <p class="paragraph" data-i18n="products.product2.description"></p>
                     <button id="btn-product">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
                             color="currentColor" fill="none" stroke="currentColor" stroke-width="1.5"
@@ -204,7 +201,7 @@
                                 d="M13 21.5V21C13 18.1716 13 16.7574 13.8787 15.8787C14.7574 15 16.1716 15 19 15H19.5M20 13.3431V10C20 6.22876 20 4.34315 18.8284 3.17157C17.6569 2 15.7712 2 12 2C8.22877 2 6.34315 2 5.17157 3.17157C4 4.34314 4 6.22876 4 10L4 14.5442C4 17.7892 4 19.4117 4.88607 20.5107C5.06508 20.7327 5.26731 20.9349 5.48933 21.1139C6.58831 22 8.21082 22 11.4558 22C12.1614 22 12.5141 22 12.8372 21.886C12.9044 21.8623 12.9702 21.835 13.0345 21.8043C13.3436 21.6564 13.593 21.407 14.0919 20.9081L18.8284 16.1716C19.4065 15.5935 19.6955 15.3045 19.8478 14.9369C20 14.5694 20 14.1606 20 13.3431Z">
                             </path>
                         </svg>
-                        Ver espeficiaciones técnicas
+                        <span data-i18n="products.product2.btn"></span>
                     </button>
                 </main>
             </article>
@@ -213,10 +210,8 @@
                     <img src="imgs/cueros-vacunos.png" alt="">
                 </header>
                 <main>
-                    <p class="section-title">Cueros Vacunos</p>
-                    <p class="paragraph">Principal línea de producción. Cueros de vaquillonas, novillitos, vacas y
-                        novillos salados o secos, provenientes de frigoríficos seleccionados de Buenos Aires. Origen
-                        100% trazable, desuello mecánico y preparación según estándares de exportación.</p>
+                    <p class="section-title" data-i18n="products.product3.title"></p>
+                    <p class="paragraph" data-i18n="products.product3.description"></p>
                 </main>
             </article>
             <article>
@@ -224,10 +219,8 @@
                     <img src="imgs/cueros-vacunos.png" alt="">
                 </header>
                 <main>
-                    <p class="section-title">Cueros Vacunos</p>
-                    <p class="paragraph">Principal línea de producción. Cueros de vaquillonas, novillitos, vacas y
-                        novillos salados o secos, provenientes de frigoríficos seleccionados de Buenos Aires. Origen
-                        100% trazable, desuello mecánico y preparación según estándares de exportación.</p>
+                    <p class="section-title" data-i18n="products.product4.title"></p>
+                    <p class="paragraph" data-i18n="products.product4.description"></p>
                 </main>
             </article>
         </main>
@@ -243,71 +236,56 @@
                     fill="#8C6B52" />
             </svg>
             <br>
-            <h3>Avalados por la Habilitación Oficial SENASA N° 5146, garantizando procesos de salado seguros, trazables
-                y adaptados a las exigencias globales.</h3>
+            <h3 data-i18n="sx-qualification"></h3>
         </div>
     </section>
     <section class="padding-general" id="process">
-        <h2>Nuestro proceso</h2>
+        <h2 data-i18n="sx-process.title"></h2>
 
         <main>
             <article id="step">
                 <header>
-                    <p>1</p>
+                    <p data-i18n="sx-process.steps.step1.number"></p>
                 </header>
                 <main>
-                    <p class="section-title">Compra</p>
-                    <p class="paragraph">
-                        Compra en frigoríficos seleccionados <br>
-                        Adquirimos cueros frescos directamente en frigoríficos con los que tenemos relaciones de largo
-                        plazo, garantizando calidad desde el origen.
-                    </p>
+                    <p class="section-title" data-i18n="sx-process.steps.step1.title"></p>
+                    <p class="paragraph" data-i18n="sx-process.steps.step1.description"></p>
                 </main>
             </article>
             <article id="step">
                 <header>
-                    <p><span>2</span></p>
+                    <p><span data-i18n="sx-process.steps.step2.number"></span></p>
                 </header>
                 <main>
-                    <p class="section-title">Salado con supervisión propia</p>
-                    <p class="paragraph">
-                        El proceso de salado se realiza en nuestro establecimiento o en origen, siempre bajo supervisión
-                        directa de los propietarios.
-                    </p>
+                    <p class="section-title" data-i18n="sx-process.steps.step2.title"></p>
+                    <p class="paragraph" data-i18n="sx-process.steps.step2.description"></p>
                 </main>
             </article>
             <article id="step">
                 <header>
-                    <p>3</p>
+                    <p data-i18n="sx-process.steps.step3.number"></p>
                 </header>
                 <main>
-                    <p class="section-title">Clasificación por tipo y peso</p>
-                    <p class="paragraph">Separamos y clasificamos los cueros según categoría (vaquillona, vaca, novillo)
-                        y rango de peso, asegurando lotes homogéneos.</p>
+                    <p class="section-title" data-i18n="sx-process.steps.step3.title"></p>
+                    <p class="paragraph" data-i18n="sx-process.steps.step3.description"></p>
                 </main>
             </article>
             <article id="step">
                 <header>
-                    <p><span>4</span></p>
+                    <p><span data-i18n="sx-process.steps.step4.number"></span></p>
                 </header>
                 <main>
-                    <p class="section-title">Recorte y preparación</p>
-                    <p class="paragraph">
-                        Se realizan los recortes y la preparación según las especificaciones puntuales que cada cliente
-                        necesita para su industria.
-                    </p>
+                    <p class="section-title" data-i18n="sx-process.steps.step4.title"></p>
+                    <p class="paragraph" data-i18n="sx-process.steps.step4.description"></p>
                 </main>
             </article>
             <article id="step">
                 <header>
-                    <p>5</p>
+                    <p data-i18n="sx-process.steps.step5.number"></p>
                 </header>
                 <main>
-                    <p class="section-title">Palletizado y carga para exportación</p>
-                    <p class="paragraph">
-                        Palletizado eficiente y carga al container con toda la documentación de exportación y
-                        certificación SENASA en orden.
-                    </p>
+                    <p class="section-title" data-i18n="sx-process.steps.step5.title"></p>
+                    <p class="paragraph" data-i18n="sx-process.steps.step5.description"></p>
                 </main>
             </article>
         </main>
@@ -320,26 +298,26 @@
                     d="M21.1664 1.36469C21.9924 0.539791 23.0975 0.0544105 24.2638 0.00430443C25.43 -0.0458017 26.5727 0.343006 27.4664 1.09402L27.7651 1.36702L32.1984 5.79802H38.4657C39.6427 5.79823 40.7761 6.24315 41.6389 7.04364C42.5017 7.84412 43.0301 8.94106 43.1184 10.1147L43.1324 10.4647V16.732L47.5657 21.1654C48.3913 21.9914 48.8771 23.097 48.9272 24.2639C48.9773 25.4307 48.5881 26.5739 47.8364 27.4677L47.5634 27.764L43.1301 32.1973V38.4647C43.1305 39.642 42.6858 40.776 41.8853 41.6393C41.0847 42.5026 39.9874 43.0314 38.8134 43.1197L38.4657 43.1314H32.2007L27.7674 47.5647C26.9413 48.3902 25.8357 48.876 24.6689 48.9261C23.5021 48.9762 22.3589 48.587 21.4651 47.8354L21.1688 47.5647L16.7354 43.1314H10.4658C9.28841 43.1317 8.15443 42.6871 7.29114 41.8865C6.42785 41.086 5.89905 39.9887 5.81075 38.8147L5.79908 38.4647V32.1973L1.36575 27.764C0.540204 26.9379 0.0544122 25.8323 0.00430126 24.6655C-0.0458097 23.4987 0.343403 22.3555 1.09508 21.4617L1.36575 21.1654L5.79908 16.732V10.4647C5.7993 9.28774 6.24422 8.15435 7.0447 7.29155C7.84519 6.42876 8.94212 5.90029 10.1158 5.81202L10.4658 5.79802H16.7331L21.1664 1.36469ZM24.4657 4.66869L20.0324 9.10202C19.2574 9.87587 18.2348 10.3525 17.1438 10.4484L16.7331 10.4647H10.4658V16.732C10.466 17.8284 10.0803 18.8899 9.37608 19.7304L9.09842 20.0337L4.66508 24.467L9.09842 28.898C9.87313 29.6727 10.3506 30.6953 10.4471 31.7867L10.4658 32.1973V38.4647H16.7331C17.8295 38.4644 18.891 38.8502 19.7314 39.5543L20.0347 39.832L24.4657 44.2654L28.8991 39.832C29.6738 39.0573 30.6964 38.5799 31.7877 38.4833L32.1984 38.4647H38.4657V32.1973C38.4655 31.1009 38.8512 30.0394 39.5554 29.199L39.8331 28.8957L44.2664 24.4647L39.8331 20.0314C39.0584 19.2566 38.5809 18.234 38.4844 17.1427L38.4657 16.732V10.4647H32.1984C31.102 10.465 30.0405 10.0792 29.2001 9.37502L28.8968 9.09735L24.4634 4.66402L24.4657 4.66869ZM31.6524 17.4274C32.0723 17.0089 32.6358 16.7659 33.2283 16.7478C33.8209 16.7297 34.3981 16.9379 34.8427 17.3299C35.2874 17.722 35.5661 18.2686 35.6223 18.8588C35.6786 19.4489 35.508 20.0384 35.1454 20.5074L34.9494 20.7267L23.5627 32.1133C23.1182 32.5585 22.5256 32.8248 21.8976 32.8618C21.2696 32.8988 20.6498 32.7039 20.1561 32.314L19.9321 32.1157L14.3228 26.5064C13.8998 26.0874 13.653 25.5227 13.6328 24.9277C13.6126 24.3328 13.8206 23.7526 14.2142 23.306C14.6077 22.8594 15.1571 22.58 15.7499 22.5252C16.3426 22.4704 16.9339 22.6442 17.4028 23.011L17.6221 23.2047L21.7474 27.33L31.6524 17.4274Z"
                     fill="#8C6B52" />
             </svg>
-            <h3>Exportando cueros argentinos a mercados internacionales desde 2019.</h3>
+            <h3 data-i18n="export.title"></h3>
             <div class="tags">
-                <span>AméricA</span>
+                <span data-i18n="export.America"></span>
                 <span>·</span>
-                <span>Europa</span>
+                <span data-i18n="export.Europe"></span>
                 <span>·</span>
-                <span>Asia</span>
+                <span data-i18n="export.Asia"></span>
                 <span>·</span>
-                <span>África</span>
+                <span data-i18n="export.Africa"></span>
             </div>
         </div>
     </section>
 
     <section class="padding-general" id="contact">
         <div>
-            <h2>Hablemos</h2>
-            <p class="paragraph">Si buscás un proveedor confiable de cueros argentinos, estamos para ayudarte.</p>
+            <h2 data-i18n="contact.title"></h2>
+            <p class="paragraph" data-i18n="contact.description"></p>
         </div>
         <button id="btn-primary">
-            Contactar
+            <span data-i18n="contact.button"></span>
             <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M12.175 9H0V7H12.175L6.575 1.4L8 0L16 8L8 16L6.575 14.6L12.175 9Z" fill="#FAFAFA" />
             </svg>
@@ -355,10 +333,10 @@
             <p>+54 3856564993</p>
         </div>
         <ul>
-            <li>Nosotros</li>
-            <li>Productos</li>
-            <li>Procesos</li>
-            <li>Contacto</li>
+            <li data-i18n="footer.links.about"></li>
+            <li data-i18n="footer.links.products"></li>
+            <li data-i18n="footer.links.process"></li>
+            <li data-i18n="footer.links.contact"></li>
         </ul>
     </footer>
     <script src="js.js"></script>

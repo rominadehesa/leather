@@ -6,7 +6,7 @@
         "contact": "Contact"
     },
     "hero": {
-        "title": "Argentine Leather. Quality that travels the world.",
+        "title": "Argentine Leather. \nQuality that travels the world.",
         "subtitle": "Second-generation family-owned company specialized in exporting bovine, goat, and buffalo hides to international markets."
     },
     "buttons": {
@@ -20,7 +20,7 @@
         "senasa_accreditation": "Official SENASA registration number"
     },
     "about_us": {
-        "title": "One family. Three decades in leather.",
+        "title": "One family. \nThree decades in leather.",
         "content": "Rauch Leathers S.A. is led by Rubén De Fabio and Marcos De Fabio, supervising every stage of the process from sourcing to international commercialization.",
         "tags": {
             "tag1": {
@@ -39,6 +39,126 @@
                 "title": "Adaptability",
                 "content": "Flexibility tailored to customer requirements."
             }
+        }
+    },
+    "mission": "Founded in Rauch, Buenos Aires. For over 30 years we have been building solid relationships in the local market.",
+    "products": {
+        "title": "Raw material for the global industry.",
+        "product1": {
+            "title": "Bovine Hides",
+            "description": "Primary production line. Hides from heifers, young steers, cows and steers, salted or dried, sourced from selected slaughterhouses in Buenos Aires. 100% traceable origin, mechanical flaying and preparation according to export standards.",
+            "btn": "View technical specifications",
+            "tecnica": {
+                "title": "Bovine Hides",
+                "subtitle": "SPECIFICATIONS BY CATEGORY",
+                "categories": [
+                    {
+                        "name": "Heifers and young steers",
+                        "average_weight_label": "AVERAGE WEIGHT",
+                        "average_weight": "21–24 Kg",
+                        "full_range_label": "FULL RANGE",
+                        "full_range": "Min. 20 Kg / Max. 26 Kg"
+                    },
+                    {
+                        "name": "Cows",
+                        "average_weight_label": "AVERAGE WEIGHT",
+                        "average_weight": "24–27 Kg",
+                        "full_range_label": "FULL RANGE",
+                        "full_range": "Min. 23 Kg / Max. 29 Kg"
+                    },
+                    {
+                        "name": "Steers",
+                        "average_weight_label": "AVERAGE WEIGHT",
+                        "average_weight": "26–30 Kg",
+                        "full_range_label": "FULL RANGE",
+                        "full_range": "Min. 24 Kg / Max. 32 Kg"
+                    }
+                ],
+                "footer": "Each pallet contains between 90 and 110 hides, uncategorized."
+            }
+        },
+        "product2": {
+            "title": "Bubaline Hides",
+            "description": "Buffalo hides sourced from northern Argentina, available upon specific request. Highly valued in Asian and European markets for their durability and grain characteristics. Sourced from controlled facilities, with mechanical flaying and salted preparation.",
+            "btn": "View technical specifications",
+            "tecnica": {
+                "title": "Bubaline Hides",
+                "subtitle": "SPECIFICATIONS BY CATEGORY",
+                "categories": [
+                    {
+                        "average_weight_label": "AVERAGE LIGHT WEIGHT",
+                        "average_weight": "27 Kg",
+                        "full_range_label": "FULL RANGE",
+                        "full_range": "Min. 21 Kg / Max. 30 Kg"
+                    },
+                    {
+                        "average_weight_label": "AVERAGE HEAVY WEIGHT",
+                        "average_weight": "33 Kg",
+                        "full_range_label": "FULL RANGE",
+                        "full_range": "Min. 30 Kg / Max. 37.9 Kg"
+                    }
+                ],
+                "footer": "Each pallet contains between 80 and 110 hides depending on category."
+            }
+        },
+        "product3": {
+            "title": "Custom-order Hides",
+            "description": "We work with different grades and preparations to adapt to each client's needs. We offer 1st, 2nd and mixed grades, preserved in salt or dried, with custom preparations according to buyer requirements."
+        },
+        "product4": {
+            "title": "Collagen and Gelatin",
+            "description": "Selected bovine hides for the collagen and food-grade gelatin industry. They present slight variations in preservation or cuts, acceptable for industrial processing."
+        }
+    },
+    "sx-qualification": "Certified by Official SENASA Registration N° 5146, guaranteeing safe, traceable salting processes adapted to global standards.",
+    "sx-process": {
+        "title": "Our Process",
+        "steps": {
+            "step1": {
+                "number": "1",
+                "title": "Purchase",
+                "description": "We buy from local ranchers. We receive the fresh hides directly in Rauch, with the ranches we work with guaranteeing quality from the source."
+            },
+            "step2": {
+                "number": "2",
+                "title": "Salting with Own Supervision",
+                "description": "We carry out the salting at our own establishment, always supervising every step of the process."
+            },
+            "step3": {
+                "number": "3",
+                "title": "Sorting by Type and Weight",
+                "description": "We separate and classify the hides by category: bovine, caprine, bubaline and weight range, ensuring homogeneous lots."
+            },
+            "step4": {
+                "number": "4",
+                "title": "Trimming and Preparation",
+                "description": "We trim each hide to meet buyer specifications, minimizing waste to a minimum."
+            },
+            "step5": {
+                "number": "5",
+                "title": "Palletizing and Loading for Export",
+                "description": "We palletize carefully and prepare all documentation for export with SENASA registration in order."
+            }
+        }
+    },
+    "export": {
+        "title": "Exporting Argentine hides to international markets since 2019.",
+        "America": "America",
+        "Europe": "Europe",
+        "Asia": "Asia",
+        "Africa": "Africa"
+    },
+    "contact": {
+        "title": "Let's Talk",
+        "description": "Tell us about your project and discover what Argentine leathers can do for you.",
+        "button": "Contact Us"
+    },
+    "footer": {
+        "links": {
+            "about": "About Us",
+            "products": "Products",
+            "process": "Process",
+            "contact": "Contact"
         }
     }
 }

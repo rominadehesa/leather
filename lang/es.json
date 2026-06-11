@@ -6,7 +6,7 @@
         "contact": "Contacto"
     },
     "hero": {
-        "title": "Cueros Argentinos. Calidad que recorre el mundo.",
+        "title": "Cueros Argentinos. \nCalidad que recorre el mundo.",
         "subtitle": "Empresa familiar de segunda generación especializada en exportación de cueros vacunos, caprinos y bubalinos para mercados internacionales."
     },
     "buttons": {
@@ -20,7 +20,7 @@
         "senasa_accreditation": "Habilitacion oficial de SENASA"
     },
     "about_us": {
-        "title": "Una familia. Tres décadas de cuero.",
+        "title": "Una familia. \nTres décadas de cuero.",
         "content": "Rauch Leathers S.A. está dirigida por Rubén De Fabio y Marcos De Fabio, quienes supervisan cada etapa del proceso, desde el abastecimiento hasta la comercialización internacional.",
         "tags": {
             "tag1": {
@@ -39,6 +39,126 @@
                 "title": "Adaptabilidad",
                 "content": "Flexibilidad según requerimientos"
             }
+        }
+    },
+    "mission": "Fundada en Rauch, Provincia de Buenos Aires, llevamos más de 30 años construyendo relaciones sólidas en el mercado local.",
+    "products": {
+        "title": "Materia prima para la industria global.",
+        "product1": {
+            "title": "Cueros Vacunos",
+            "description": "Principal línea de producción. Cueros de vaquillonas, novillitos, vacas y novillos salados o secos, provenientes de frigoríficos seleccionados de Buenos Aires. Origen 100% trazable, desuello mecánico y preparación según estándares de exportación.",
+            "btn": "Ver espeficiaciones técnicas",
+            "tecnica": {
+                "title": "Cueros Vacunos",
+                "subtitle": "ESPECIFICACIONES POR CATEGORÍA",
+                "categories": [
+                    {
+                        "name": "Vaquillonas y novillitos",
+                        "average_weight_label": "PESO PROMEDIO",
+                        "average_weight": "21–24 Kg",
+                        "full_range_label": "RANGO COMPLETO",
+                        "full_range": "Mín. 20 Kg / Máx. 26 Kg"
+                    },
+                    {
+                        "name": "Vacas",
+                        "average_weight_label": "PESO PROMEDIO",
+                        "average_weight": "24–27 Kg",
+                        "full_range_label": "RANGO COMPLETO",
+                        "full_range": "Mín. 23 Kg / Máx. 29 Kg"
+                    },
+                    {
+                        "name": "Novillos",
+                        "average_weight_label": "PESO PROMEDIO",
+                        "average_weight": "26–30 Kg",
+                        "full_range_label": "RANGO COMPLETO",
+                        "full_range": "Mín. 24 Kg / Máx. 32 Kg"
+                    }
+                ],
+                "footer": "Cada pallet contiene entre 90 y 110 cueros sin categoría."
+            }
+        },
+        "product2": {
+            "title": "Cueros Bubalinos",
+            "description": "Cueros de búfalo provenientes del norte de Argentina disponibles bajo pedido específico. Apreciados en mercados asiáticos y europeos por su resistencia y características de flor. Provenientes de establecimientos controlados, con desuello mecánico y preparación en salado.",
+            "btn": "Ver espeficiaciones técnicas",
+            "tecnica": {
+                "title": "Cueros Vacunos",
+                "subtitle": "ESPECIFICACIONES POR CATEGORÍA",
+                "categories": [
+                    {
+                        "average_weight_label": "PESO PROMEDIO LIVIANO",
+                        "average_weight": "27 Kg",
+                        "full_range_label": "RANGO COMPLETO",
+                        "full_range": "Mín. 21 Kg / Máx. 30 Kg"
+                    },
+                    {
+                        "average_weight_label": "PESO PROMEDIO PESADO",
+                        "average_weight": "33 Kg",
+                        "full_range_label": "RANGO COMPLETO",
+                        "full_range": "Mín. 30 Kg / Máx. 37.9 Kg"
+                    }
+                ],
+                "footer": "Cada pallet contiene entre 80 y 110 cueros según categoría."
+            }
+        },
+        "product3": {
+            "title": "Cueros según requerimiento",
+            "description": "Trabajamos con diferentes calidades y preparaciones para adaptarnos a cada cliente. Ofrecemos calidades 1ª, 2ª y mixta, con conservación en salado o seco, y preparaciones a medida según las necesidades del comprador."
+        },
+        "product4": {
+            "title": "Colágeno y Gelatina",
+            "description": "Cueros vacunos seleccionados para la industria de colágeno y gelatina alimenticia. Presentan leve variación de conservación o tajos, aceptables para el proceso industrial."
+        }
+    },
+    "sx-qualification": "Avalados por la Habilitación Oficial SENASA N° 5146, garantizando procesos de salado seguros, trazables y adaptados a las exigencias globales.",
+    "sx-process": {
+        "title": "Nuestro proceso",
+        "steps": {
+            "step1": {
+                "number": "1",
+                "title": "Compra",
+                "description": "Compra en frigoríficos seleccionados. n/Adquirimos cueros frescos directamente en frigoríficos con los que tenemos relaciones de largo plazo, garantizando calidad desde el origen."
+            },
+            "step2": {
+                "number": "2",
+                "title": "Salado con supervisión propia",
+                "description": "El proceso de salado se realiza en nuestro establecimiento o en origen, siempre bajo supervisión directa de los propietarios."
+            },
+            "step3": {
+                "number": "3",
+                "title": "Clasificación por tipo y peso",
+                "description": "Separamos y clasificamos los cueros según categoría (vaquillona, vaca, novillo) y rango de peso, asegurando lotes homogéneos."
+            },
+            "step4": {
+                "number": "4",
+                "title": "Recorte y preparación",
+                "description": "Se realizan los recortes y la preparación según las especificaciones puntuales que cada cliente necesita para su industria."
+            },
+            "step5": {
+                "number": "5",
+                "title": "Palletizado y carga para exportación",
+                "description": "Palletizado eficiente y carga al container con toda la documentación de exportación y certificación SENASA en orden."
+            }
+        }
+    },
+    "export": {
+        "title": "Exportando cueros argentinos a mercados internacionales desde 2019.",
+        "America": "América",
+        "Europe": "Europa",
+        "Asia": "Asia",
+        "Africa": "África"
+    },
+    "contact": {
+        "title": "Hablemos",
+        "description": "Si buscás un proveedor confiable de cueros argentinos, estamos para ayudarte.",
+        "button": "Contactar"
+    },
+    "footer": {
+        "links": {
+            "about": "Nosotros",
+            "products": "Productos",
+            "process": "Proceso",
+            "contact": "Contacto"
         }
     }
 }

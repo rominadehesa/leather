@@ -53,9 +53,16 @@ p {
 
 nav {
   background-color: var(--color-dark);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+
   color: var(--color-cream-1);
   font-weight: 400;
   padding: 1vh 12vw;
+  box-sizing: border-box;
   font-family: "Manrope", sans-serif;
 }
 
@@ -68,8 +75,12 @@ nav>div>.logo {
 
 header main {
   background-image: url('imgs/header-section.png');
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background-size: cover;
   color: var(--color-mist);
+  height: 70vh;
 }
 
 header main h1,
@@ -315,6 +326,8 @@ nav ul {
   border-top-right-radius: 26px;
   border-top-left-radius: 26px;
   width: 100%;
+  object-fit: cover;
+  height: 35vh;
 }
 
 #products main article main {
@@ -478,27 +491,28 @@ footer ul {
   }
 
   nav {
-    padding: 1vh 5vw;
+    padding: 2vh 5vw;
   }
 
   .padding-general {
-        padding: 8vh 6vw;
-    }
+    padding: 8vh 6vw;
+  }
 
   header main h1,
   section h1 {
-    font-size: 48px;
+    font-size: 42px;
   }
 
   .subtitle {
-    font-size: 22px;
+    font-size: 24px;
   }
 
-  #btn-primary, #btn-secondary {
-     width: 100%;
-     text-align: center;
-     display: block;
-     margin-bottom: 2vh;
+  #btn-primary,
+  #btn-secondary {
+    width: 100%;
+    text-align: center;
+    display: block;
+    margin-bottom: 1vh;
   }
 
   #sx-values {
@@ -513,9 +527,20 @@ footer ul {
     margin-bottom: 4vh;
   }
 
-  #sx-about img, #sx-about div {
+  #sx-about img,
+  #sx-about div {
     width: 100%;
   }
+
+  #sx-about {
+    text-align: center;
+  }
+
+  #sx-about main article {
+    width: 100%;
+    height: auto;
+  }
+  
 
   section h3 {
     font-size: 28px;
@@ -532,9 +557,9 @@ footer ul {
   }
 
   .paragraph {
-    font-size: 14px;
-    margin-bottom: 2vh;
-  }
+        font-size: 14px;
+        margin-bottom: 4vh;
+    }
 
   .section-title {
     font-size: 24px;
@@ -566,5 +591,18 @@ footer ul {
     display: block;
     border: none;
     background-color: transparent;
+  }
+
+  header main {
+    height: 80vh;
+  }
+
+  #contact {
+    text-align: center;
+  }
+
+  #products main article header img {
+    height: 18vh;
+    object-fit: cover;
   }
 }

@@ -27,7 +27,7 @@ async function changeLanguage(lang) {
             const value = getTranslation(translations, key);
 
             if (value !== undefined) {
-                element.textContent = value;
+                element.innerHTML = value.replace(/\n/g, '<br>');
             }
         });
 
