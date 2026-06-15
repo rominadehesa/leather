@@ -684,13 +684,24 @@ footer ul {
     object-fit: cover;
   }
   .popup-content {
-    width: 100vw;
-    border-radius: 0;
-    border-top-left-radius: 26px;
-    border-top-right-radius: 26px;
+    width: 80vw;
     padding: 4vh 7vw;
   }
-  .popup {
-    align-items: flex-end;
+
+  .popup-content > .subconteiner .specs {
+    flex-direction: column;
+      gap: 20px;
+  }
+
+  .popup-content > .subconteiner .specs div {
+    width: 100%;
+  }
+
+  .popup-content > .subconteiner .specs .value {
+    font-size: 3vh;
+  }
+
+  .popup-content > .subconteiner .subtitle {
+    font-size: 22px;
   }
 }
