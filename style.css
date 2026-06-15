@@ -687,6 +687,11 @@ footer ul {
     width: 80vw;
     padding: 4vh 7vw;
   }
+  
+  .popup {
+    height: 110%;
+    align-items: end;
+  }
 
   .popup-content > .subconteiner .specs {
     flex-direction: column;
