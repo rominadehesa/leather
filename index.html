@@ -170,7 +170,7 @@
                 <main>
                     <p class="section-title" data-i18n="products.product1.title"></p>
                     <p class="paragraph" data-i18n="products.product1.description"></p>
-                    <button id="btn-product">
+                    <button id="btn-product" class="open-btn" data-popup="popup1">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
                             color="currentColor" fill="none" stroke="currentColor" stroke-width="1.5"
                             stroke-linecap="round" stroke-linejoin="round">
@@ -191,7 +191,7 @@
                 <main>
                     <p class="section-title" data-i18n="products.product2.title"></p>
                     <p class="paragraph" data-i18n="products.product2.description"></p>
-                    <button id="btn-product">
+                    <button id="btn-product" class="open-btn" data-popup="popup2">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
                             color="currentColor" fill="none" stroke="currentColor" stroke-width="1.5"
                             stroke-linecap="round" stroke-linejoin="round">
@@ -339,6 +339,114 @@
             <li data-i18n="footer.links.contact"></li>
         </ul>
     </footer>
+
+    <div id="popup1" class="popup">
+        <div class="popup-content">
+            <header>
+                <span class="close">
+                    <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M1.4 14L0 12.6L5.6 7L0 1.4L1.4 0L7 5.6L12.6 0L14 1.4L8.4 7L14 12.6L12.6 14L7 8.4L1.4 14Z" fill="#1F0808"/>
+                    </svg>
+                </span>
+            </header>
+            <div>
+                <h3 data-i18n="products.product1.tecnica.title"></h3>
+                <p class="caption" data-i18n="products.product1.tecnica.subtitle"></p>
+            </div>
+
+            <main class="subconteiner">
+                <p class="subtitle" data-i18n="products.product1.tecnica.categories.category1.name"></p>
+                <div class="specs">
+                    <div>
+                        <span class="caption" data-i18n="products.product1.tecnica.categories.category1.average_weight_label"></span>
+                        <span class="value" data-i18n="products.product1.tecnica.categories.category1.average_weight"></span>
+                    </div>
+                    <div>
+                        <span class="caption" data-i18n="products.product1.tecnica.categories.category1.full_range_label"></span>
+                        <span class="value" data-i18n="products.product1.tecnica.categories.category1.full_range"></span>
+                    </div>
+                </div>
+            </main>
+
+            <main class="subconteiner">
+                <p class="subtitle" data-i18n="products.product1.tecnica.categories.category2.name"></p>
+                <div class="specs">
+                    <div>
+                        <span class="caption" data-i18n="products.product1.tecnica.categories.category2.average_weight_label"></span>
+                        <span class="value" data-i18n="products.product1.tecnica.categories.category2.average_weight"></span>
+                    </div>
+                    <div>
+                        <span class="caption" data-i18n="products.product1.tecnica.categories.category2.full_range_label"></span>
+                        <span class="value" data-i18n="products.product1.tecnica.categories.category2.full_range"></span>
+                    </div>
+                </div>
+            </main>
+
+            <main class="subconteiner">
+                <p class="subtitle" data-i18n="products.product1.tecnica.categories.category3.name"></p>
+                <div class="specs">
+                    <div>
+                        <span class="caption" data-i18n="products.product1.tecnica.categories.category3.average_weight_label"></span>
+                        <span class="value" data-i18n="products.product1.tecnica.categories.category3.average_weight"></span>
+                    </div>
+                    <div>
+                        <span class="caption" data-i18n="products.product1.tecnica.categories.category3.full_range_label"></span>
+                        <span class="value" data-i18n="products.product1.tecnica.categories.category3.full_range"></span>
+                    </div>
+                </div>
+            </main>
+
+            <span class="caption" data-i18n="products.product1.tecnica.footer"></span>
+        </div>
+    </div>
+
+    <div id="popup2" class="popup">
+         <div class="popup-content">
+            <header>
+                <span class="close">
+                    <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M1.4 14L0 12.6L5.6 7L0 1.4L1.4 0L7 5.6L12.6 0L14 1.4L8.4 7L14 12.6L12.6 14L7 8.4L1.4 14Z" fill="#1F0808"/>
+                    </svg>
+                </span>
+            </header>
+            <div>
+                <h3 data-i18n="products.product2.tecnica.title"></h3>
+                <p class="caption" data-i18n="products.product2.tecnica.subtitle"></p>
+            </div>
+
+            <main class="subconteiner">
+                <p class="subtitle" data-i18n="products.product2.tecnica.categories.light.name"></p>
+                <div class="specs">
+                    <div>
+                        <span class="caption" data-i18n="products.product2.tecnica.categories.light.average_weight_label"></span>
+                        <span class="value" data-i18n="products.product2.tecnica.categories.light.average_weight"></span>
+                    </div>
+                    <div>
+                        <span class="caption" data-i18n="products.product2.tecnica.categories.light.full_range_label"></span>
+                        <span class="value" data-i18n="products.product2.tecnica.categories.light.full_range"></span>
+                    </div>
+                </div>
+            </main>
+
+             <main class="subconteiner">
+                <p class="subtitle" data-i18n="products.product2.tecnica.categories.heavy.name"></p>
+                <div class="specs">
+                    <div>
+                        <span class="caption" data-i18n="products.product2.tecnica.categories.heavy.average_weight_label"></span>
+                        <span class="value" data-i18n="products.product2.tecnica.categories.heavy.average_weight"></span>
+                    </div>
+                    <div>
+                        <span class="caption" data-i18n="products.product2.tecnica.categories.heavy.full_range_label"></span>
+                        <span class="value" data-i18n="products.product2.tecnica.categories.heavy.full_range"></span>
+                    </div>
+                </div>
+            </main>
+
+
+            <span class="caption" data-i18n="products.product2.tecnica.footer"></span>
+        </div>
+    </div>
+
     <script src="js.js"></script>
 </body>
 

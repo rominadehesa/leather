@@ -67,3 +67,16 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 });
+
+
+document.querySelectorAll(".open-btn").forEach(btn => {
+    btn.addEventListener("click", () => {
+        document.getElementById(btn.dataset.popup).style.display = "flex";
+    });
+});
+
+document.querySelectorAll(".close").forEach(btn => {
+    btn.addEventListener("click", () => {
+        btn.closest(".popup").style.display = "none";
+    });
+});

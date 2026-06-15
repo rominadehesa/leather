@@ -51,30 +51,30 @@
             "tecnica": {
                 "title": "Cueros Vacunos",
                 "subtitle": "ESPECIFICACIONES POR CATEGORÍA",
-                "categories": [
-                    {
+                "categories": {
+                    "category1": {
                         "name": "Vaquillonas y novillitos",
                         "average_weight_label": "PESO PROMEDIO",
                         "average_weight": "21–24 Kg",
                         "full_range_label": "RANGO COMPLETO",
                         "full_range": "Mín. 20 Kg / Máx. 26 Kg"
                     },
-                    {
+                    "category2": {
                         "name": "Vacas",
                         "average_weight_label": "PESO PROMEDIO",
                         "average_weight": "24–27 Kg",
                         "full_range_label": "RANGO COMPLETO",
                         "full_range": "Mín. 23 Kg / Máx. 29 Kg"
                     },
-                    {
+                    "category3": {
                         "name": "Novillos",
                         "average_weight_label": "PESO PROMEDIO",
                         "average_weight": "26–30 Kg",
                         "full_range_label": "RANGO COMPLETO",
                         "full_range": "Mín. 24 Kg / Máx. 32 Kg"
                     }
-                ],
-                "footer": "Cada pallet contiene entre 90 y 110 cueros sin categoría."
+                },
+            "footer": "Cada pallet contiene entre 90 y 110 cueros sin categoría."
             }
         },
         "product2": {
@@ -82,22 +82,22 @@
             "description": "Cueros de búfalo provenientes del norte de Argentina disponibles bajo pedido específico. Apreciados en mercados asiáticos y europeos por su resistencia y características de flor. Provenientes de establecimientos controlados, con desuello mecánico y preparación en salado.",
             "btn": "Ver espeficiaciones técnicas",
             "tecnica": {
-                "title": "Cueros Vacunos",
+                "title": "Cueros Bubalinos",
                 "subtitle": "ESPECIFICACIONES POR CATEGORÍA",
-                "categories": [
-                    {
+                "categories": {
+                    "light": {
                         "average_weight_label": "PESO PROMEDIO LIVIANO",
                         "average_weight": "27 Kg",
                         "full_range_label": "RANGO COMPLETO",
                         "full_range": "Mín. 21 Kg / Máx. 30 Kg"
                     },
-                    {
+                    "heavy": {
                         "average_weight_label": "PESO PROMEDIO PESADO",
                         "average_weight": "33 Kg",
                         "full_range_label": "RANGO COMPLETO",
                         "full_range": "Mín. 30 Kg / Máx. 37.9 Kg"
                     }
-                ],
+                },
                 "footer": "Cada pallet contiene entre 80 y 110 cueros según categoría."
             }
         },

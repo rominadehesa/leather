@@ -51,29 +51,29 @@
             "tecnica": {
                 "title": "Bovine Hides",
                 "subtitle": "SPECIFICATIONS BY CATEGORY",
-                "categories": [
-                    {
-                        "name": "Heifers and young steers",
-                        "average_weight_label": "AVERAGE WEIGHT",
-                        "average_weight": "21–24 Kg",
-                        "full_range_label": "FULL RANGE",
-                        "full_range": "Min. 20 Kg / Max. 26 Kg"
+                "categories": {
+                        "category1": {
+                            "name": "Heifers and young steers",
+                            "average_weight_label": "AVERAGE WEIGHT",
+                            "average_weight": "21–24 Kg",
+                            "full_range_label": "FULL RANGE",
+                            "full_range": "Min. 20 Kg / Max. 26 Kg"
+                        },
+                        "category2": {
+                            "name": "Cows",
+                            "average_weight_label": "AVERAGE WEIGHT",
+                            "average_weight": "24–27 Kg",
+                            "full_range_label": "FULL RANGE",
+                            "full_range": "Min. 23 Kg / Max. 29 Kg"
+                        },
+                        "category3": {
+                            "name": "Steers",
+                            "average_weight_label": "AVERAGE WEIGHT",
+                            "average_weight": "26–30 Kg",
+                            "full_range_label": "FULL RANGE",
+                            "full_range": "Min. 24 Kg / Max. 32 Kg"
+                        }
                     },
-                    {
-                        "name": "Cows",
-                        "average_weight_label": "AVERAGE WEIGHT",
-                        "average_weight": "24–27 Kg",
-                        "full_range_label": "FULL RANGE",
-                        "full_range": "Min. 23 Kg / Max. 29 Kg"
-                    },
-                    {
-                        "name": "Steers",
-                        "average_weight_label": "AVERAGE WEIGHT",
-                        "average_weight": "26–30 Kg",
-                        "full_range_label": "FULL RANGE",
-                        "full_range": "Min. 24 Kg / Max. 32 Kg"
-                    }
-                ],
                 "footer": "Each pallet contains between 90 and 110 hides, uncategorized."
             }
         },
@@ -84,20 +84,20 @@
             "tecnica": {
                 "title": "Bubaline Hides",
                 "subtitle": "SPECIFICATIONS BY CATEGORY",
-                "categories": [
-                    {
+                "categories": {
+                    "light": {
                         "average_weight_label": "AVERAGE LIGHT WEIGHT",
                         "average_weight": "27 Kg",
                         "full_range_label": "FULL RANGE",
                         "full_range": "Min. 21 Kg / Max. 30 Kg"
                     },
-                    {
+                    "heavy": {
                         "average_weight_label": "AVERAGE HEAVY WEIGHT",
                         "average_weight": "33 Kg",
                         "full_range_label": "FULL RANGE",
-                        "full_range": "Min. 30 Kg / Max. 37.9 Kg"
+                        "full_range": "Min. 30 Kg / Max. 379 Kg"
                     }
-                ],
+                },
                 "footer": "Each pallet contains between 80 and 110 hides depending on category."
             }
         },
