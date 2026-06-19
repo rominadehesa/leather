@@ -16,8 +16,8 @@
     "values": {
         "years_in_market": "Años en el mercado",
         "export_start": "Inicio de exportaciones",
-        "active_brands": "Marcados activos",
-        "senasa_accreditation": "Habilitacion oficial de SENASA"
+        "active_brands": "Mercados activos",
+        "senasa_accreditation": "Habilitación oficial de SENASA"
     },
     "about_us": {
         "title": "Una familia. \nTres décadas de cuero.",
@@ -121,12 +121,12 @@
             },
             "step2": {
                 "number": "2",
-                "title": "Salado con supervisión propia",
+                "title": "Salado con \nsupervisión propia",
                 "description": "El proceso de salado se realiza en nuestro establecimiento o en origen, siempre bajo supervisión directa de los propietarios."
             },
             "step3": {
                 "number": "3",
-                "title": "Clasificación por tipo y peso",
+                "title": "Clasificación por \ntipo y peso",
                 "description": "Separamos y clasificamos los cueros según categoría (vaquillona, vaca, novillo) y rango de peso, asegurando lotes homogéneos."
             },
             "step4": {
@@ -136,7 +136,7 @@
             },
             "step5": {
                 "number": "5",
-                "title": "Palletizado y carga para exportación",
+                "title": "Paletizado y carga \npara exportación",
                 "description": "Palletizado eficiente y carga al container con toda la documentación de exportación y certificación SENASA en orden."
             }
         }

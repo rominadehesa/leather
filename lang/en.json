@@ -7,7 +7,7 @@
     },
     "hero": {
         "title": "Argentine Leather. \nQuality that travels the world.",
-        "subtitle": "Second-generation family-owned company specialized in exporting bovine, goat, and buffalo hides to international markets."
+        "subtitle": "A second-generation family-owned company specializing in exporting bovine, goat, and buffalo hides to international markets."
     },
     "buttons": {
         "products": "View Products",
@@ -20,8 +20,8 @@
         "senasa_accreditation": "Official SENASA registration number"
     },
     "about_us": {
-        "title": "One family. \nThree decades in leather.",
-        "content": "Rauch Leathers S.A. is led by Rubén De Fabio and Marcos De Fabio, supervising every stage of the process from sourcing to international commercialization.",
+        "title": "One family. \nThree decades in Leather.",
+        "content": "Rauch Leathers S.A. is led by Rubén De Fabio and Marcos De Fabio, who oversee every stage of the process, from sourcing to international markets.",
         "tags": {
             "tag1": {
                 "title": "Compliance",
@@ -121,12 +121,12 @@
             },
             "step2": {
                 "number": "2",
-                "title": "Salting with Own Supervision",
+                "title": "Salting with \nOwn Supervision",
                 "description": "We carry out the salting at our own establishment, always supervising every step of the process."
             },
             "step3": {
                 "number": "3",
-                "title": "Sorting by Type and Weight",
+                "title": "Sorting by \nType and Weight",
                 "description": "We separate and classify the hides by category: bovine, caprine, bubaline and weight range, ensuring homogeneous lots."
             },
             "step4": {
@@ -136,7 +136,7 @@
             },
             "step5": {
                 "number": "5",
-                "title": "Palletizing and Loading for Export",
+                "title": "Palletizing and Loading \nfor Export",
                 "description": "We palletize carefully and prepare all documentation for export with SENASA registration in order."
             }
         }
