@@ -16,10 +16,18 @@
                 <span class="mobile-text">L·R</span>
             </span>
             <ul class="" id="nav-list">
-                <li data-i18n="nav.about"></li>
-                <li data-i18n="nav.products"></li>
-                <li data-i18n="nav.process"></li>
-                <li data-i18n="nav.contact"></li>
+                <a href="#about">
+                    <li data-i18n="nav.about"></li>
+                </a>
+                <a href="#products">
+                    <li data-i18n="nav.products"></li>
+                </a>
+                <a href="#process">
+                    <li data-i18n="nav.process"></li>
+                </a>
+                <a href="#contact">
+                    <li data-i18n="nav.contact"></li>
+                </a>
             </ul>
             <div class="lang-toggle">
                 <span class="lang-toggle__option lang-toggle__option--active">SPA</span>
@@ -31,7 +39,7 @@
         </nav>
         <main class="padding-general">
             <div>
-                <h1 data-i18n="hero.title"></h1>
+                <h1 data-i18n="hero.title" class="reveal"></h1>
                 <p class="subtitle" data-i18n="hero.subtitle"></p>
                 <div class="flex-center">
                     <button id="btn-primary" data-i18n="buttons.products"></button>
@@ -40,7 +48,7 @@
             </div>
         </main>
     </header>
-    <section id="sx-values">
+    <section id="sx-values" class="reveal">
         <article>
             <span>+30</span>
             <p data-i18n="values.years_in_market"></p>
@@ -58,13 +66,13 @@
             <p data-i18n="values.senasa_accreditation"></p>
         </article>
     </section>
-    <section id="sx-about" class="padding-general flex-between">
-        <img src="imgs/img-about.png" alt="">
+    <section id="about" class="padding-general flex-between">
+        <img src="imgs/img-about.png" alt="" class="reveal">
         <div>
             <h1 data-i18n="about_us.title"></h1>
             <p class="paragraph" data-i18n="about_us.content"></p>
             <main class="flex-between">
-                <article>
+                <article class="">
                     <svg width="55" height="55" viewBox="0 0 55 55" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <rect width="55" height="55" rx="12" fill="#F5F1EA" />
                         <g clip-path="url(#clip0_23_165)">
@@ -83,7 +91,7 @@
                     <p class="section-title" data-i18n="about_us.tags.tag1.title"></p>
                     <p class="paragraph" data-i18n="about_us.tags.tag1.content"></p>
                 </article>
-                <article>
+                <article class="">
                     <svg width="54" height="54" viewBox="0 0 54 54" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <rect width="54" height="54" rx="12" fill="#F5F1EA" />
                         <g clip-path="url(#clip0_23_185)">
@@ -102,7 +110,7 @@
                 </article>
             </main>
             <main class="flex-between">
-                <article>
+                <article class="">
                     <svg width="54" height="54" viewBox="0 0 54 54" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <rect width="54" height="54" rx="12" fill="#F5F1EA" />
                         <g clip-path="url(#clip0_23_205)">
@@ -126,7 +134,7 @@
                     <p class="section-title" data-i18n="about_us.tags.tag3.title"></p>
                     <p class="paragraph" data-i18n="about_us.tags.tag3.content"></p>
                 </article>
-                <article>
+                <article class="">
                     <svg width="54" height="54" viewBox="0 0 54 54" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <rect width="54" height="54" rx="12" fill="#F5F1EA" />
                         <g clip-path="url(#clip0_23_233)">
@@ -155,14 +163,14 @@
                     fill="#8C6B52" />
             </svg>
             <br>
-            <h3 data-i18n="mission"></h3>
+            <h3 data-i18n="mission" class="reveal"></h3>
         </div>
     </section>
     <section class="padding-general" id="products">
         <h2 data-i18n="products.title"></h2>
         <br>
         <main class="flex-between">
-            <article>
+            <article class="reveal">
                 <header>
                     <img src="imgs/cueros-vacunos.png" alt="">
                 </header>
@@ -183,7 +191,7 @@
                     </button>
                 </main>
             </article>
-            <article>
+            <article class="reveal">
                 <header>
                     <img src="imgs/cueros-vacunos.png" alt="">
                 </header>
@@ -204,7 +212,7 @@
                     </button>
                 </main>
             </article>
-            <article>
+            <article class="reveal">
                 <header>
                     <img src="imgs/cueros-vacunos.png" alt="">
                 </header>
@@ -213,7 +221,7 @@
                     <p class="paragraph" data-i18n="products.product3.description"></p>
                 </main>
             </article>
-            <article>
+            <article class="reveal">
                 <header>
                     <img src="imgs/cueros-vacunos.png" alt="">
                 </header>
@@ -235,7 +243,7 @@
                     fill="#8C6B52" />
             </svg>
             <br>
-            <h3 data-i18n="sx-qualification"></h3>
+            <h3 data-i18n="sx-qualification" class="reveal"></h3>
         </div>
     </section>
     <section class="padding-general" id="process">
@@ -244,7 +252,7 @@
         <main>
             <article id="step">
                 <header>
-                    <p data-i18n="sx-process.steps.step1.number"></p>
+                    <p data-i18n="sx-process.steps.step1.number" class="reveal"></p>
                 </header>
                 <main>
                     <p class="section-title" data-i18n="sx-process.steps.step1.title"></p>
@@ -253,7 +261,7 @@
             </article>
             <article id="step">
                 <header>
-                    <p><span data-i18n="sx-process.steps.step2.number"></span></p>
+                    <p><span data-i18n="sx-process.steps.step2.number" class="reveal"></span></p>
                 </header>
                 <main>
                     <p class="section-title" data-i18n="sx-process.steps.step2.title"></p>
@@ -262,7 +270,7 @@
             </article>
             <article id="step">
                 <header>
-                    <p data-i18n="sx-process.steps.step3.number"></p>
+                    <p data-i18n="sx-process.steps.step3.number" class="reveal"></p>
                 </header>
                 <main>
                     <p class="section-title" data-i18n="sx-process.steps.step3.title"></p>
@@ -271,7 +279,7 @@
             </article>
             <article id="step">
                 <header>
-                    <p><span data-i18n="sx-process.steps.step4.number"></span></p>
+                    <p><span data-i18n="sx-process.steps.step4.number" class="reveal"></span></p>
                 </header>
                 <main>
                     <p class="section-title" data-i18n="sx-process.steps.step4.title"></p>
@@ -280,7 +288,7 @@
             </article>
             <article id="step">
                 <header>
-                    <p data-i18n="sx-process.steps.step5.number"></p>
+                    <p data-i18n="sx-process.steps.step5.number" class="reveal"></p>
                 </header>
                 <main>
                     <p class="section-title" data-i18n="sx-process.steps.step5.title"></p>
@@ -297,15 +305,15 @@
 <path d="M22.1666 2.3335C18.2358 8.63259 16.1518 15.9085 16.1518 23.3335C16.1518 30.7585 18.2358 38.0344 22.1666 44.3335M24.5 2.3335C28.4309 8.63259 30.5148 15.9085 30.5148 23.3335C30.5148 30.7585 28.4309 38.0344 24.5 44.3335" stroke="#8C6B52" stroke-width="4.66667" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>
 
-            <h3 data-i18n="export.title"></h3>
+            <h3 data-i18n="export.title" class="reveal"></h3>
             <div class="tags">
-                <span data-i18n="export.America"></span>
-                <span>·</span>
                 <span data-i18n="export.Europe"></span>
                 <span>·</span>
                 <span data-i18n="export.Asia"></span>
                 <span>·</span>
                 <span data-i18n="export.Africa"></span>
+                <span>·</span>
+                <span data-i18n="export.America"></span>
             </div>
         </div>
     </section>
@@ -337,10 +345,18 @@
             <p>+54 3856564993</p>
         </div>
         <ul>
-            <li data-i18n="footer.links.about"></li>
-            <li data-i18n="footer.links.products"></li>
-            <li data-i18n="footer.links.process"></li>
-            <li data-i18n="footer.links.contact"></li>
+            <a href="#about">
+                <li data-i18n="footer.links.about"></li>
+            </a>
+            <a href="#products">
+                <li data-i18n="footer.links.products"></li>
+            </a>
+            <a href="#process">
+                <li data-i18n="footer.links.process"></li>
+            </a>
+            <a href="#contact">
+                <li data-i18n="footer.links.contact"></li>
+            </a>
         </ul>
     </footer>
 

@@ -66,6 +66,10 @@ nav {
   font-family: "Manrope", sans-serif;
 }
 
+nav a {
+  text-decoration: none;
+}
+
 
 header main {
   background-image: url('imgs/header-section.png');
@@ -86,7 +90,7 @@ section h1 {
   margin-bottom: 3vh;
 }
 
-#sx-about h1 {
+#about h1 {
   color: var(--color-dark);
 }
 
@@ -163,6 +167,10 @@ header main div {
 nav ul {
   list-style: none;
   gap: 60px;
+}
+
+nav ul li {
+  color: var(--color-cream-2);
 }
 
 .padding-general {
@@ -264,25 +272,25 @@ nav ul {
 #sx-values p {
   font-size: 14px;
   font-weight: 400;
-  letter-spacing: -5%;
+  letter-spacing: 5%;
   line-height: 135%;
   text-transform: uppercase;
 }
 
-#sx-about {
+#about {
   background-color: var(--color-cream-1);
 }
 
-#sx-about img,
-#sx-about div {
+#about img,
+#about div {
   width: 47%;
 }
 
-#sx-about main {
+#about main {
   gap: 40px;
 }
 
-#sx-about main article {
+#about main article {
   width: 50%;
   height: 25vh;
 }
@@ -438,12 +446,15 @@ footer h6 {
   font-family: "Marcellus SC", serif;
   font-weight: 400;
   font-size: 28px;
+  line-height: auto;
+  letter-spacing: -3%;
 }
 
 footer p {
   font-family: "Manrope", serif;
   font-weight: 400;
-  font-size: 12px;
+  font-size: 14px;
+  line-height: 120%;
   color: var(--color-mist);
 }
 
@@ -552,7 +563,7 @@ footer ul {
   }
 
   #sx-values,
-  #sx-about,
+  #about,
   #products main,
   #contact,
   footer,
@@ -622,20 +633,20 @@ footer ul {
     gap: 10px;
   }
 
-  #sx-about img {
+  #about img {
     margin-bottom: 4vh;
   }
 
-  #sx-about img,
-  #sx-about div {
+  #about img,
+  #about div {
     width: 100%;
   }
 
-  #sx-about {
+  #about {
     text-align: center;
   }
 
-  #sx-about main article {
+  #about main article {
     width: 100%;
     height: auto;
   }
@@ -780,7 +791,7 @@ footer ul {
 
   #nav-list {
     background-color: #E1DBCB;
-    color: var(--color-dark);
+    color: var(--color-dark) !important;
     width: 100%;
     display: flex !important;
     flex-direction: column;
@@ -798,7 +809,7 @@ footer ul {
 
   nav.open {
     background-color: var(--color-cream-1);
-    color: var(--color-dark);
+    color: var(--color-dark) !important;
   }
 
   #nav-list.open {
@@ -807,5 +818,17 @@ footer ul {
 
   #nav-list li {
     font-size: 20px;
+    color: var(--color-dark) !important;
   }
+}
+
+.reveal {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: all .6s ease;
+}
+
+.reveal.visible {
+    opacity: 1;
+    transform: translateY(0);
 }
