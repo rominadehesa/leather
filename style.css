@@ -766,6 +766,16 @@ footer ul {
 
   .popup-content .container-overflow {
     padding-right: 1vh;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .container-overflow::-webkit-scrollbar {
+    width: 6px;
+  }
+
+  .container-overflow::-webkit-scrollbar-thumb {
+      background: #b89c83;
+      border-radius: 10px;
   }
 
   .popup-content .subtitle {
