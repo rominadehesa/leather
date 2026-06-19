@@ -255,7 +255,7 @@ nav ul {
 }
 
 #sx-values span {
-  font-size: 56px;
+  font-size: 40px;
   font-weight: 500;
   letter-spacing: -5%;
   line-height: 105%;
@@ -386,7 +386,7 @@ nav ul {
 
 #process main #step header p {
   font-family: "Manrope", sans-serif;
-  font-size: 96px;
+  font-size: 80px;
   line-height: 109%;
   letter-spacing: -5%;
 }
@@ -472,20 +472,28 @@ footer ul {
 .popup-content {
   font-family: "Manrope", serif;
   background: #F5F1EA;
-  padding: 20px 40px;
+  padding: 6vh 2vw;
   border-radius: 26px;
   width: 60vw;
-  max-height: 80vh;
   display: flex;
   flex-direction: column;
   gap: 30px;
-  overflow-y: auto;
+  max-height: 80vh;
 }
 
 .popup-content header {
   display: flex;
-  justify-content: end;
+  justify-content: space-between;
 }
+
+.popup-content .container-overflow {
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  padding-right: 2vh;
+  gap: 10px;
+}
+
 
 .popup-content h3 {
   font-size: 26px;
@@ -495,22 +503,22 @@ footer ul {
   color: var(--color-dark);
 }
 
-.popup-content>.subconteiner {
+.popup-content .subconteiner {
   background-color: var(--color-cream-1);
   border-radius: 16px;
   padding: 24px;
 }
 
-.popup-content>.subconteiner .subtitle {
+.popup-content .subconteiner .subtitle {
   font-size: 28px;
 }
 
-.popup-content>.subconteiner .specs {
+.popup-content .subconteiner .specs {
   display: flex;
   gap: 40px;
 }
 
-.popup-content>.subconteiner .specs div {
+.popup-content .subconteiner .specs div {
   width: 50%;
   display: flex;
   flex-direction: column;
@@ -518,9 +526,9 @@ footer ul {
 }
 
 
-.popup-content>.subconteiner .specs .value {
+.popup-content .subconteiner .specs .value {
   font-family: "Manrope", serif;
-  font-size: 32px;
+  font-size: 26px;
   font-weight: 500;
   letter-spacing: 0%;
   color: var(--color-dark);
@@ -580,7 +588,7 @@ footer ul {
 
   header main h1,
   section h1 {
-    font-size: 36px;
+    font-size: 40px;
   }
 
   .subtitle {
@@ -601,7 +609,7 @@ footer ul {
     flex-direction: column;
     text-align: center;
     align-items: center;
-    gap: 40px;
+    gap: 10px;
   }
 
   #sx-about img {
@@ -693,24 +701,25 @@ footer ul {
   }
 
   .popup {
-    height: 110%;
-    align-items: end;
+    height: 100%;
+    align-items: center;
   }
 
-  .popup-content>.subconteiner .specs {
+  .popup-content .subconteiner .specs {
     flex-direction: column;
     gap: 20px;
   }
 
-  .popup-content>.subconteiner .specs div {
+  .popup-content .subconteiner .specs div {
     width: 100%;
   }
 
-  .popup-content>.subconteiner .specs .value {
-    font-size: 3vh;
+
+  .popup-content .subconteiner .specs .value {
+    font-size: 2.5vh;
   }
 
-  .popup-content>.subconteiner .subtitle {
+  .popup-content .subconteiner .subtitle {
     font-size: 22px;
   }
 }
@@ -729,6 +738,10 @@ footer ul {
 
 .mobile-text {
   display: none;
+}
+
+#nav-list {
+  display: flex;
 }
 
 @media (max-width: 768px) {
