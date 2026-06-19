@@ -66,12 +66,6 @@ nav {
   font-family: "Manrope", sans-serif;
 }
 
-nav>div>.logo {
-  font-family: "Marcellus SC", serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 4vh;
-}
 
 header main {
   background-image: url('imgs/header-section.png');
@@ -491,7 +485,7 @@ footer ul {
 .popup-content header {
   display: flex;
   justify-content: end;
-} 
+}
 
 .popup-content h3 {
   font-size: 26px;
@@ -501,22 +495,22 @@ footer ul {
   color: var(--color-dark);
 }
 
-.popup-content > .subconteiner {
+.popup-content>.subconteiner {
   background-color: var(--color-cream-1);
   border-radius: 16px;
   padding: 24px;
 }
 
-.popup-content > .subconteiner .subtitle {
+.popup-content>.subconteiner .subtitle {
   font-size: 28px;
 }
 
-.popup-content > .subconteiner .specs {
+.popup-content>.subconteiner .specs {
   display: flex;
   gap: 40px;
 }
 
-.popup-content > .subconteiner .specs div {
+.popup-content>.subconteiner .specs div {
   width: 50%;
   display: flex;
   flex-direction: column;
@@ -524,12 +518,12 @@ footer ul {
 }
 
 
-.popup-content > .subconteiner .specs .value {
+.popup-content>.subconteiner .specs .value {
   font-family: "Manrope", serif;
   font-size: 32px;
   font-weight: 500;
   letter-spacing: 0%;
-  color: var(--color-dark); 
+  color: var(--color-dark);
 }
 
 .popup-content .subtitle {
@@ -556,6 +550,14 @@ footer ul {
     display: block;
   }
 
+  footer ul {
+    margin-top: 2vh;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+  }
+
+
   #sx-founded>div,
   #sx-qualification>div,
   #sx-export>div,
@@ -578,17 +580,18 @@ footer ul {
 
   header main h1,
   section h1 {
-    font-size: 42px;
+    font-size: 36px;
   }
 
   .subtitle {
-    font-size: 24px;
+    font-size: 18px;
   }
 
   #btn-primary,
   #btn-secondary {
     width: 100%;
     text-align: center;
+    font-size: 14px;
     display: block;
     margin-bottom: 1vh;
   }
@@ -683,30 +686,103 @@ footer ul {
     height: 18vh;
     object-fit: cover;
   }
+
   .popup-content {
     width: 80vw;
     padding: 4vh 7vw;
   }
-  
+
   .popup {
     height: 110%;
     align-items: end;
   }
 
-  .popup-content > .subconteiner .specs {
+  .popup-content>.subconteiner .specs {
     flex-direction: column;
-      gap: 20px;
+    gap: 20px;
   }
 
-  .popup-content > .subconteiner .specs div {
+  .popup-content>.subconteiner .specs div {
     width: 100%;
   }
 
-  .popup-content > .subconteiner .specs .value {
+  .popup-content>.subconteiner .specs .value {
     font-size: 3vh;
   }
 
-  .popup-content > .subconteiner .subtitle {
+  .popup-content>.subconteiner .subtitle {
     font-size: 22px;
+  }
+}
+
+.desktop-text,
+.mobile-text {
+  font-family: "Marcellus SC", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 4vh;
+}
+
+.desktop-text {
+  display: inline;
+}
+
+.mobile-text {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .desktop-text {
+    display: none;
+  }
+
+  .mobile-text {
+    display: inline;
+  }
+}
+
+
+#menu-btn {
+  display: none;
+  border: none;
+  background-color: transparent;
+}
+
+@media (max-width: 768px) {
+
+  #menu-btn {
+    display: block;
+    z-index: 1002;
+  }
+
+  #nav-list {
+    background-color: #E1DBCB;
+    color: var(--color-dark);
+    width: 100%;
+    display: flex !important;
+    flex-direction: column;
+    gap: 10px;
+    position: fixed;
+    top: 7vh;
+    left: 0;
+    height: auto;
+    transform: translateX(-100%);
+    z-index: 1001;
+    list-style: none;
+    padding: 2vh 5vw;
+    border-top: 1px solid var(--color-dark);
+  }
+
+  nav.open {
+    background-color: var(--color-cream-1);
+    color: var(--color-dark);
+  }
+
+  #nav-list.open {
+    transform: translateX(0);
+  }
+
+  #nav-list li {
+    font-size: 20px;
   }
 }
