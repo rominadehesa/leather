@@ -442,6 +442,11 @@ footer {
   align-items: end;
 }
 
+footer a {
+  text-decoration: none;
+  color: var(--color-mist);
+}
+
 footer h6 {
   font-family: "Marcellus SC", serif;
   font-weight: 400;
