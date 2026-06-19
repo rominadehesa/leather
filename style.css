@@ -70,6 +70,10 @@ nav a {
   text-decoration: none;
 }
 
+a {
+  text-decoration: none;
+}
+
 
 header main {
   background-image: url('imgs/header-section.png');
@@ -236,11 +240,17 @@ nav ul li {
 
 #btn-primary:hover {
   background-color: var(--color-tan-hover);
+  cursor: pointer;
 }
 
 #btn-secondary {
   background-color: var(--color-mist);
   color: var(--color-dark);
+}
+
+#btn-secondary:hover {
+  cursor: pointer;
+  background-color: #F5F1EA;
 }
 
 #btn-nav-mobile {
@@ -459,7 +469,7 @@ footer p {
   font-family: "Manrope", serif;
   font-weight: 400;
   font-size: 14px;
-  line-height: 120%;
+  line-height: 140%;
   color: var(--color-mist);
 }
 
