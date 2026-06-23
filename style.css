@@ -85,13 +85,17 @@ header main {
   height: 70vh;
 }
 
+header main h1 {
+  margin-top: 10vh;
+}
+
 header main h1,
 section h1 {
   font-size: 64px;
   font-family: "Marcellus", serif;
   font-weight: 400;
   line-height: 100%;
-  margin-bottom: 3vh;
+  margin-bottom: 24px;
 }
 
 #about h1 {
@@ -408,6 +412,10 @@ nav ul li {
 }
 
 #process main #step header p {
+  width: 4vw;
+}
+
+#process main #step header p {
   font-family: "Manrope", sans-serif;
   font-size: 80px;
   line-height: 109%;
@@ -447,6 +455,10 @@ nav ul li {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+#contact h2 {
+  margin-bottom: 16px;
 }
 
 footer {
@@ -736,6 +748,10 @@ footer ul {
     height: 18vh;
     object-fit: cover;
   }
+
+  #process main #step header p {
+    width: 12vw;
+  }scm-history-item:c%3A%5CUsers%5CRomi%5CDesktop%5Cleather?%7B%22repositoryId%22%3A%22scm0%22%2C%22historyItemId%22%3A%223ca8a92d21bf385a664d0c5da80251dce86878e8%22%2C%22historyItemParentId%22%3A%223c77dec5b293c7893873d88d5b54f53b9c32d701%22%2C%22historyItemDisplayId%22%3A%223ca8a92%22%7D
 
   .popup-content {
     width: 80vw;
