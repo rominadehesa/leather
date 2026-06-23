@@ -71,7 +71,7 @@ nav a {
 }
 
 a {
-  text-decoration: none;
+  text-decoration: none !important;
 }
 
 
@@ -822,6 +822,7 @@ footer ul {
   font-weight: 400;
   font-style: normal;
   font-size: 4vh;
+  color: var(--color-cream-1);
 }
 
 .desktop-text {
