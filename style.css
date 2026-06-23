@@ -155,7 +155,7 @@ section h3 {
   line-height: 105%;
   font-weight: 500;
   color: var(--color-dark);
-  margin-bottom: 4vh;
+  margin: 24px 0px 8px 0px;
 }
 
 nav {
@@ -306,7 +306,8 @@ nav ul li {
 }
 
 #about main {
-  gap: 40px;
+    gap: 24px;
+    margin-bottom: 48px;
 }
 
 #about main article {
@@ -701,12 +702,12 @@ footer ul {
 
   .paragraph {
     font-size: 14px;
-    margin-bottom: 4vh;
+    margin-bottom: 24px;
   }
 
   .section-title {
     font-size: 24px;
-    margin: 0px 0px 26px 0px;
+    margin: 24px 0px 8px 0px;
   }
 
   #products main {
