@@ -365,6 +365,10 @@ nav ul li {
   min-height: 30vh;
 }
 
+#products .section-title {
+  margin-top: 0px;
+}
+
 #btn-product {
   background-color: var(--color-tan);
   border: none;
