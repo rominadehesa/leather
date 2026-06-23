@@ -306,8 +306,8 @@ nav ul li {
 }
 
 #about main {
-    gap: 24px;
-    margin-bottom: 48px;
+  gap: 24px;
+  margin-bottom: 48px;
 }
 
 #about main article {
@@ -421,6 +421,10 @@ nav ul li {
   font-size: 80px;
   line-height: 109%;
   letter-spacing: -5%;
+}
+
+#process main #step .section-title {
+  margin: 0px 0px 8px 0px;
 }
 
 #process main #step main p {
@@ -746,7 +750,7 @@ footer ul {
   }
 
   #products main article header img {
-    height: 18vh;
+    height: 20vh;
     object-fit: cover;
   }
 
@@ -798,8 +802,8 @@ footer ul {
   }
 
   .container-overflow::-webkit-scrollbar-thumb {
-      background: #b89c83;
-      border-radius: 10px;
+    background: #b89c83;
+    border-radius: 10px;
   }
 
   .popup-content .subtitle {
@@ -886,12 +890,12 @@ footer ul {
 }
 
 .reveal {
-    opacity: 0;
-    transform: translateY(30px);
-    transition: all .6s ease;
+  opacity: 0;
+  transform: translateY(30px);
+  transition: all .6s ease;
 }
 
 .reveal.visible {
-    opacity: 1;
-    transform: translateY(0);
+  opacity: 1;
+  transform: translateY(0);
 }
