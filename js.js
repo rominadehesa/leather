@@ -84,6 +84,7 @@ document.querySelectorAll(".close").forEach(btn => {
 
 const btn = document.getElementById("menu-btn");
 const menu = document.getElementById("nav-list");
+const nav = document.querySelector("nav");
 
 const menuIcon = `
 <svg width="18" height="14" viewBox="0 0 18 14">
@@ -97,15 +98,48 @@ const closeIcon = `
 </svg>
 `;
 
-btn.addEventListener("click", () => {
+function closeMenu() {
+    menu.classList.remove("open");
+    nav.classList.remove("open");
+
+    document.querySelectorAll(".mobile-text").forEach(el => {
+        el.style.color = "#FFFFFF";
+    });
+
+    btn.innerHTML = menuIcon;
+}
+
+btn.addEventListener("click", (e) => {
+    e.stopPropagation();
+
     menu.classList.toggle("open");
-    document.querySelector("nav").classList.toggle("open");
-    btn.innerHTML = menu.classList.contains("open")
-        ? closeIcon
-        : menuIcon;
+    nav.classList.toggle("open");
+
+    const isOpen = menu.classList.contains("open");
+
+    document.querySelectorAll(".mobile-text").forEach(el => {
+        el.style.color = isOpen ? "#1F0808" : "#FFFFFF";
+    });
+
+    btn.innerHTML = isOpen ? closeIcon : menuIcon;
 });
 
+// Cierra al tocar fuera del nav
+document.addEventListener("click", (e) => {
+    if (
+        menu.classList.contains("open") &&
+        !nav.contains(e.target)
+    ) {
+        closeMenu();
+    }
+});
 
+// Cierra al tocar un link del menú
+document.querySelectorAll("#nav-list a").forEach(link => {
+    link.addEventListener("click", () => {
+        closeMenu();
+    });
+});
 
 const elements = document.querySelectorAll(".reveal");
 
