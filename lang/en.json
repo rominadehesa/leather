@@ -6,22 +6,22 @@
         "contact": "Contact"
     },
     "hero": {
-        "title": "Argentine Leather. \nQuality that travels the world.",
-        "subtitle": "A second-generation family-owned company specializing in exporting bovine, goat, and buffalo hides to international markets."
+        "title": "Argentine Leather. \nQuality That Travels the World.",
+        "subtitle": "Second-generation family business specialized in the export of bovine, caprine, and buffalo hides to international markets."
     },
     "buttons": {
         "products": "View Products",
         "contact": "Contact Us"
     },
     "values": {
-        "years_in_market": "Years in the market",
-        "export_start": "Beginning of exports",
-        "active_brands": "Worldwide markets",
-        "senasa_accreditation": "Official SENASA registration number"
+        "years_in_market": "Years of Experience",
+        "export_start": "Export Operations Began",
+        "active_brands": "Active International Markets",
+        "senasa_accreditation": "Official SENASA Registration Number"
     },
     "about_us": {
-        "title": "One family. \nThree decades in Leather.",
-        "content": "Rauch Leathers S.A. is led by Rubén De Fabio and Marcos De Fabio, who oversee every stage of the process, from sourcing to international markets.",
+        "title": "One family. \nThree Decades of Hides.",
+        "content": "Rauch Leathers S.A. is led by Rubén De Fabio and Marcos De Fabio, who oversee every stage of the operation, from sourcing and processing to international trade.",
         "tags": {
             "tag1": {
                 "title": "Compliance",
@@ -29,24 +29,24 @@
             },
             "tag2": {
                 "title": "Quality",
-                "content": "Stability and reliability in every shipment."
+                "content": "Rigorous Quality Control at Every Stage."
             },
             "tag3": {
                 "title": "Traceability",
-                "content": "Complete origin tracking throughout the supply chain."
+                "content": "Full Product Traceability"
             },
             "tag4": {
                 "title": "Adaptability",
-                "content": "Flexibility tailored to customer requirements."
+                "content": "Flexible Solutions for Client Requirements."
             }
         }
     },
-    "mission": "Founded in Rauch, Buenos Aires. For over 30 years we have been building solid relationships in the local market.",
+    "mission": "Founded in Rauch, Buenos Aires, we have been building strong relationships across the local market for more than 30 years.",
     "products": {
-        "title": "Raw material for the global industry.",
+        "title": "Raw Materials for the Global Leather Industry.",
         "product1": {
             "title": "Bovine Hides",
-            "description": "Primary production line. Hides from heifers, young steers, cows and steers, salted or dried, sourced from selected slaughterhouses in Buenos Aires. 100% traceable origin, mechanical flaying and preparation according to export standards.",
+            "description": "Our main production line. Hides from heifers, young steers, cows, and steers — salted or dried — sourced from selected slaughterhouses in Buenos Aires. 100% traceable origin, mechanical flaying, and preparation in accordance with export standards.",
             "btn": "View technical specifications",
             "tecnica": {
                 "title": "Bovine Hides",
@@ -78,11 +78,11 @@
             }
         },
         "product2": {
-            "title": "Bubaline Hides",
-            "description": "Buffalo hides sourced from northern Argentina, available upon specific request. Highly valued in Asian and European markets for their durability and grain characteristics. Sourced from controlled facilities, with mechanical flaying and salted preparation.",
+            "title": "Buffalo Hides",
+            "description": "Buffalo hides sourced from northern Argentina, available upon specific request. Highly regarded in Asian and European markets for their durability and grain characteristics. Sourced from controlled facilities, with mechanical flaying and preparation in salted condition.",
             "btn": "View technical specifications",
             "tecnica": {
-                "title": "Bubaline Hides",
+                "title": "Buffalo Hides",
                 "subtitle": "SPECIFICATIONS BY CATEGORY",
                 "categories": {
                     "light": {
@@ -103,11 +103,11 @@
         },
         "product3": {
             "title": "Custom-order Hides",
-            "description": "We work with different grades and preparations to adapt to each client's needs. We offer 1st, 2nd and mixed grades, preserved in salt or dried, with custom preparations according to buyer requirements."
+            "description": "We work with different grades and preparations to meet each client's requirements. We offer 1st, 2nd, and mixed grades, with salted or dried preservation, and custom preparations tailored to the buyer's needs."
         },
         "product4": {
             "title": "Collagen and Gelatin",
-            "description": "Selected bovine hides for the collagen and food-grade gelatin industry. They present slight variations in preservation or cuts, acceptable for industrial processing."
+            "description": "Selected bovine hides for the collagen and food-grade gelatin industry. These hides may present slight variations in preservation or cuts, acceptable for industrial processing."
         }
     },
     "sx-qualification": "Certified by Official SENASA Registration N° 5146, guaranteeing safe, traceable salting processes adapted to global standards.",
@@ -116,28 +116,28 @@
         "steps": {
             "step1": {
                 "number": "1",
-                "title": "Purchase",
-                "description": "We buy from local ranchers. We receive the fresh hides directly in Rauch, with the ranches we work with guaranteeing quality from the source."
+                "title": "Procurement",
+                "description": "We source fresh hides directly from selected slaughterhouses with which we have long-standing relationships, ensuring quality from the point of origin."
             },
             "step2": {
                 "number": "2",
-                "title": "Salting with \nOwn Supervision",
-                "description": "We carry out the salting at our own establishment, always supervising every step of the process."
+                "title": "Owner-Supervised \nSalting",
+                "description": "The salting process is carried out at our facility or at the source, always under the direct supervision of the company owners."
             },
             "step3": {
                 "number": "3",
-                "title": "Sorting by \nType and Weight",
-                "description": "We separate and classify the hides by category: bovine, caprine, bubaline and weight range, ensuring homogeneous lots."
+                "title": "Grading by \nType and Weight",
+                "description": "Hides are separated and classified by category (heifer, cow, steer) and weight range, ensuring uniform and consistent batches."
             },
             "step4": {
                 "number": "4",
                 "title": "Trimming and Preparation",
-                "description": "We trim each hide to meet buyer specifications, minimizing waste to a minimum."
+                "description": "Trimming and preparation are performed according to the specific requirements of each client's industry."
             },
             "step5": {
                 "number": "5",
-                "title": "Palletizing and Loading \nfor Export",
-                "description": "We palletize carefully and prepare all documentation for export with SENASA registration in order."
+                "title": "Palletizing and \nExport Loading",
+                "description": "Efficient palletizing and container loading, with all export documentation and SENASA certification in order."
             }
         }
     },
@@ -150,7 +150,7 @@
     },
     "contact": {
         "title": "Let's Talk",
-        "description": "Looking for a reliable supplier of Argentine hides? We're here to help.",
+        "description": "If you are looking for a reliable supplier of Argentine hides, we are here to help.",
         "button": "Contact Us"
     },
     "footer": {
