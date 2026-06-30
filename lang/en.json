@@ -53,7 +53,7 @@
                 "subtitle": "SPECIFICATIONS BY CATEGORY",
                 "categories": {
                         "category1": {
-                            "name": "Heifers and young steers",
+                            "name": "Heifers and steers",
                             "average_weight_label": "AVERAGE WEIGHT",
                             "average_weight": "21–24 Kg",
                             "full_range_label": "FULL RANGE",
@@ -95,7 +95,7 @@
                         "average_weight_label": "AVERAGE HEAVY WEIGHT",
                         "average_weight": "33 Kg",
                         "full_range_label": "FULL RANGE",
-                        "full_range": "Min. 30 Kg / Max. 379 Kg"
+                        "full_range": "Min. 30 Kg / Max. 39 Kg"
                     }
                 },
                 "footer": "Each pallet contains between 80 and 110 hides depending on category."
